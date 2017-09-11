@@ -88,18 +88,18 @@ cobbForm.addEventListener('click', function(event) {
 
 
 //Beginning of BENNETT Data
-var cobbForm =document.getElementById('cobbStats')
+var bennettForm =document.getElementById('bennettStats')
 
-var cobbReceptions = document.getElementById('cobbReceptions');
-var cobbYards = document.getElementById('cobbYards');
-var cobbTouchdowns = document.getElementById('cobbTouchdowns');
+var bennettReceptions = document.getElementById('bennettReceptions');
+var bennettYards = document.getElementById('bennettYards');
+var bennettTouchdowns = document.getElementById('bennettTouchdowns');
 
-var cobbReceptionsSeason = document.getElementById('cobbReceptionsSeason');
-var cobbYardsSeason = document.getElementById('cobbYardsSeason');
-var cobbTdsSeason = document.getElementById('cobbTdsSeason');
+var bennettReceptionsSeason = document.getElementById('bennettReceptionsSeason');
+var bennettYardsSeason = document.getElementById('bennettYardsSeason');
+var bennettTdsSeason = document.getElementById('bennettTdsSeason');
 
 
-cobbForm.addEventListener('click', function(event) {
+bennettForm.addEventListener('click', function(event) {
   event.preventDefault();
   console.log('clicked');
   var myHeaders = new Headers();
@@ -108,17 +108,17 @@ cobbForm.addEventListener('click', function(event) {
                headers: myHeaders,
                mode: 'cors',
                cache: 'default' }
-  fetch(`https://api.fantasydata.net/v3/nfl/stats/JSON/PlayerGameStatsByPlayerID/2017REG/1/13227`, myInit)
+  fetch(`https://api.fantasydata.net/v3/nfl/stats/JSON/PlayerGameStatsByPlayerID/2017REG/1/1181`, myInit)
   .then(function(response) {
     return response.json()
-      .then(function(cobbData) {
-        cobbReceptions.innerText = (cobbData.Receptions);
-        cobbYards.innerText = (cobbData.ReceivingYards);
-        cobbTouchdowns.innerText=(cobbData.ReceivingTouchdowns);
+      .then(function(bennettData) {
+        bennettReceptions.innerText = (bennettData.Receptions);
+        bennettYards.innerText = (bennettData.ReceivingYards);
+        bennettTouchdowns.innerText= (bennettData.ReceivingTouchdowns);
 
-        cobbReceptionsSeason.append(cobbData.Receptions);
-        cobbYardsSeason.append(cobbData.ReceivingYards);
-        cobbTdsSeason.append(cobbData.ReceivingTouchdowns);
+        bennettReceptionsSeason.append(bennettData.Receptions);
+        bennettYardsSeason.append(bennettData.ReceivingYards);
+        bennettTdsSeason.append(bennettData.ReceivingTouchdowns);
 
       })
   })
