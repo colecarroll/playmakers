@@ -3,50 +3,389 @@
   <head>
     <meta charset="utf-8">
     <title>2017 Green Bay Packers Playmakers</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Play:700" rel="stylesheet">
+
     <link href='main.css' rel='stylesheet'>
+
+
+
   </head>
   <body>
-    <header id='logo'>
-      <img src='images/Site_Logo.png' alt="2017 Green Bay Packers Playmakers">
+    <header>
+      <img id='logo' src='images/Site_Logo2.png' alt="2017 Green Bay Packers Playmakers">
     </header>
 
     <main>
 
       <section id='receiversContainer'> <!--first x-axis of players for WRs TE and Oline which will justify as a row-->
 
-        <section title='Adams' id='adams'>
-          <p>#17<br>Adams<br>WR</p>
+        <div id='hiddenAdams' data-fancybox>
+            <img id='davante' src='images/davante.jpeg' alt='Davante Adams'>
+            <!--
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/YBzE4uGF8lA" frameborder="0" allowfullscreen></iframe>
+          -->
+            <h2>Davante Adams #17 Wide Receiver</h2>
+            <h3>San Diego State Aztecs</h3>
+            <h5>2016 Stat Line: 75 Receptions -- 997 Yards -- 12 TD's.</h5>
+	          <p>Davante Adams enjoyed a breakout year in 2016, where he amassed 997 yards and 13 touchdowns. With elite athleticism and short area speed, he's primed for a massive 2017 campaign.</p>
+            <section class='StatsOutput'>
+              <h3>Season Totals</h3>
+              <table>
+                <tr>
+                  <th>Receptions</th>
+                  <th>Receiving Yards</th>
+                  <th>Touchdowns</th>
+                </tr>
+                <tr>
+                  <td id="adamsReceptionsSeason"></td>
+                  <td id="adamsYardsSeason"></td>
+                  <td id="adamsTdsSeason"></td>
+                </tr>
+              </table>
 
+              <h3>Week-to-Week</h3>
+              <table>
+                <tr>
+                  <th>Week</th>
+                  <th>Receptions</th>
+                  <th>Receiving Yards</th>
+                  <th>Touchdowns</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td id="adamsReceptions"></td>
+                  <td id="adamsYards"></td>
+                  <td id="adamsTouchdowns"></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr><tr>
+                  <td>11</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+              </table>
+
+            </section>
+          </div>
+
+
+        <section title='Davante Adams' id='adams'>
+          <form id='AdamsStats'
+            <a href="#hiddenAdams"
+            id="adamslink" data-fancybox data-caption="">
+              <p>#17<br>Adams<br>WR</p>
+            </a>
+        </form>
         </section>
 
+
+        <div id='hiddenCobb' data-fancybox>
+            <img id='randall' src='images/randall.png' alt='Randall Cobb'>
+            <!--
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/PbZFqsDtgGE" frameborder="0" allowfullscreen></iframe>
+          -->
+            <h2>Randall Cobb #18 Wide Receiver</h2>
+            <h3>Kentucky Wildcats</h3>
+            <h5>2016 Stat Line: 60 Receptions -- 610 Yards -- 4 TD's.</h5>
+	          <p>Even though Cobb endured an injury-plagued 2016 season, he shined brightest when it counted most, having a huge three touchdown game against the Giants in the playoffs. Cobb is still one of the premier slot receivers in the NFL.</p>
+            <section class='StatsOutput'>
+              <h3>Season Totals</h3>
+              <table>
+                <tr>
+                  <th>Receptions</th>
+                  <th>Receiving Yards</th>
+                  <th>Touchdowns</th>
+                </tr>
+                <tr>
+                  <td id="cobbReceptionsSeason"></td>
+                  <td id="cobbYardsSeason"></td>
+                  <td id="cobbTdsSeason"></td>
+                </tr>
+              </table>
+              <h3>Week-to-Week</h3>
+              <table>
+                <tr>
+                  <th>Week</th>
+                  <th>Receptions</th>
+                  <th>Receiving Yards</th>
+                  <th>Touchdowns</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td id="cobbReceptions"></td>
+                  <td id="cobbYards"></td>
+                  <td id="cobbTouchdowns"></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr><tr>
+                  <td>11</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+              </table>
+
+            </section>
+          </div>
+
         <section title='Randall Cobb' id='cobb'>
-          <p>#18<br>Cobb<br>WR</p>
+          <form id="cobbStats">
+            <a href="#hiddenCobb"
+            id="cobblink" data-fancybox data-caption="">
+              <p>#18<br>Cobb<br>WR</p>
+            </a>
+          </form>
         </section>
 
         <section id='oline'>
           <p>69 65 63 73 75</p>
-
-      </section>
-
-        <section title='Martellus Bennett' id='bennett'>
-          <p>#80<br>Bennett<br>TE</p>
         </section>
 
+        <div id="hiddenBennett" data-fancybox>
+          <img id='martellus' src='images/martellus.jpeg' alt='Martellus Bennett'>
+          <!--
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/DWnw09QVbSc" frameborder="0" allowfullscreen></iframe>
+        -->
+          <h2>Martellus Bennett #80 Tight End</h2>
+          <h3>Texas A &#38 M Aggies</h3>
+          <h5>2016 Stat Line: 55 Receptions -- 701 Yards -- 7 TD's.</h5>
+          <p>Martellus Bennett is not only one of the most talented and consistenly productive tight ends in football, he is also one of the wackiest characters in the lockeroom. His ability to dominate the deep middle of the field will open up defenses for his teammates.</p>
+        </div>
+
+        <section title='Martellus Bennett' id='bennett'>
+          <a href="#hiddenBennett"
+          id="bennettlink" data-fancybox data-caption="">
+            <p>#80<br>Bennett<br>TE</p>
+          </a>
+        </section>
+
+        <div style="display: none;" id='hidden-content_nelson' data-fancybox>
+          <img id='jordy' src='images/jordy.jpeg' alt='Jordy Nelson'>
+          <!--
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/V--4o2G9EBc" frameborder="0" allowfullscreen></iframe>
+        -->
+          <h2>Jordy Nelson #87 Wide Receiver</h2>
+          <h3>Kansas State Wildcats</h3>
+          <h5>2016 Stat Line: 97 Receptions -- 1257 Yards -- 14 TD's.</h5>
+          <p>No one was sure if Jordy Nelson would regain his previous form as an All-Pro receiver when a torn ACL ended his 2015 season. Jordy proved all the doubters wrong with a an amazing 2016 season. He was awarded the '2016 Comeback Player of the Year Award.'</p>
+        </div>
+
         <section title='Jordy Nelson' id='nelson'>
-          <p>#87<br>Jordy<br>WR</p>
+          <a href="#hidden-content_nelson"
+          id="nelsonlink" data-fancybox data-caption="">
+            <p>#87<br>Jordy<br>WR</p>
+          </a>
         </section>
 
       </section> <!--end of receivers container-->
 
       <section id='qbrbContainer'> <!--second x-axis of players QB and RB, which will justify as a column-->
 
+        <div style="display: none;" id='hidden-content_rodgers' data-fancybox>
+          <img id='aaron' src='images/aaron.jpeg' alt='Aaron Rodgers'>
+          <!--
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/1_V2D5xN4Tc" frameborder="0" allowfullscreen></iframe>
+        -->
+          <h2>Aaron Rodgers #12 Quarterback</h2>
+          <h3>U of California Golden Bears</h3>
+          <h5>2016 Stat Line: 4428 Yards -- 40 TD's -- 7 Ints.</h5>
+          <p>What else can be said about the two-time NFL MVP. After the Packers fell to 4 - 6 and were facing playoff elimination, Rodgers proclaimed that his team could run the table and win every game the rest of the season. They did just that, fueled by Rodgers fantastic play and charged through the playoffs all the way to the NFC Championship Game.</p>
+        </div>
+
         <section title='Aaron Rodgers' id='rodgers'>
-          <p>#12<br>Aaron Rodgers<br>QB</p>
+          <a href="#hidden-content_rodgers"
+          id="rodgerslink" data-fancybox data-caption="">
+            <p>#12<br>Aaron Rodgers<br>QB</p>
+          </a>
         </section>
 
+
+        <div style="display: none;" id='hidden-content_monty' data-fancybox>
+          <img id='ty' src='images/ty.jpeg' alt='Ty Montgomery'>
+          <!--
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/B5hVRADAf-U" frameborder="0" allowfullscreen></iframe>
+        -->
+          <h2>Ty Montgomery #88 Running Back</h2>
+          <h3>Stanford Cardinals</h3>
+          <h5>2016 Stat Line: 457 Yards Rushing -- 348 Yards Receiving -- 3 TDs.</h5>
+          <p>Early in the 2016 season, when the Packers lost star running back Eddie Lacy to injury, they turned to a wide receiver to fill the void. Ty Montgomery caught on quick to being a premier rusher and is a dual threat out of the backfield with a ton of potential.</p>
+        </div>
+
         <section title='Ty Montgomery' id='monty'>
-          <p>#88<br>Monty<br>RB</p>
+          <a href="#hidden-content_monty"
+          id="montylink" data-fancybox data-caption="">
+            <p>#88<br>Monty<br>RB</p>
+          </a>
         </section>
 
       </section>
@@ -67,6 +406,21 @@
 
     </footer>
 
+    <!--SCRIPT TAGS-->
+
+    <!--JQuery-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!--API JQuery
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+-->
+
+    <!--Fancybox-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+
+    <!--my JS file-->
     <script type='text/javascript' src='app.js'></script>
+
   </body>
 </html>

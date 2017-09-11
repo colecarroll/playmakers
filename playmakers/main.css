@@ -1,9 +1,21 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Play', sans-serif;
   background:
   url('images/background.png') center no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+#hiddenAdams {
+  display: none;
+}
+
+#hiddenCobb {
+  display: none;
+}
+
+#hiddenBennett {
+  display: none;
 }
 
 header {
@@ -19,11 +31,14 @@ header {
   margin-top: -8px;
   margin-right: -8px;
   margin-left: -8px;
-}
-
-main {
 
 }
+
+#logo {
+  width:600px;
+  height: 310px;
+}
+
 
 #receiversContainer {
   display : flex;
@@ -37,54 +52,83 @@ main {
 
 }
 
+
 #adams {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
+  padding: 5px 40px;
   text-align: center;
   transition: all 0.9s ease;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 
-/*
-  border-style: solid;
-  border-color: rgb(3, 42, 3);
-
-  border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-  width: 80px;
-  */
 }
 
 #adams:hover {
   transform: scale(1.6);
+  background: url('images/adams2.gif') center no-repeat;
   border-color: gold;
   border-style: solid;
   box-shadow: 0 0 1rem #ffc600;
-  border-radius: 50%;
+  border-radius: 10%;
   padding-right: 20px;
   padding-left: 20px;
   color: #CED22F;
 }
 
+#adamslink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#adamslink:hover {
+  color: #CED22F;
+}
+
+#davante {
+  height: 225px;
+  padding-right: 10px;
+}
+
 #cobb {
+  padding-right: 35px;
+  padding-left: 35px;
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
   transition: all 0.9s ease;
   text-align: center;
-/*
-  border-style: solid;
-  border-color: rgb(3, 42, 3);
-  border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-  width: 80px;
-  */
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #cobb:hover {
   transform: scale(1.6);
+  background: url('images/cobb.gif') center no-repeat;
   border-color: gold;
   border-style: solid;
   box-shadow: 0 0 1rem #ffc600;
-  border-radius: 50%;
+  border-radius: 10%;
   padding-right: 20px;
   padding-left: 20px;
   color: #CED22F;
+}
+
+#cobblink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#cobblink:hover {
+  color: #CED22F;
+}
+
+#randall {
+  height: 225px;
+  padding-right: 10px;
 }
 
 #oline {
@@ -92,52 +136,81 @@ color: forestgreen;
 }
 
 #bennett {
+  padding-right: 35px;
+  padding-left: 35px;
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
   transition: all 0.9s ease;
   text-align: center;
-/*
-  border-style: solid;
-  border-color: rgb(3, 42, 3);
-  height: 80px;
-  border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-  width: 80px;
-  */
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #bennett:hover {
   transform: scale(1.6);
+  background: url('images/bennett.gif') center no-repeat;
   border-color: gold;
   border-style: solid;
   box-shadow: 0 0 1rem #ffc600;
-  border-radius: 50%;
+  border-radius: 10%;
   padding-right: 20px;
   padding-left: 20px;
   color: #CED22F;
 }
 
+#bennettlink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#bennettlink:hover {
+  color: #CED22F;
+}
+
+#martellus {
+  height: 225px;
+  padding-right: 10px;
+}
+
 #nelson {
+  padding-right: 35px;
+  padding-left: 35px;
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
   transition: all 0.9s ease;
   text-align: center;
-/*
-  border-style: solid;
-  border-color: rgb(3, 42, 3);
-  border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-  width: 80px;
-  */
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #nelson:hover {
   transform: scale(1.6);
+  background: url('images/jordy.gif') center no-repeat;
   border-color: gold;
   border-style: solid;
   box-shadow: 0 0 1rem #ffc600;
-  border-radius: 50%;
+  border-radius: 10%;
   padding-right: 20px;
   padding-left: 20px;
   color: #CED22F;
+}
+
+#nelsonlink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#nelsonlink:hover {
+  color: #CED22F;
+}
+
+#jordy {
+  height: 225px;
+  padding-right: 10px;
 }
 
 #qbrbContainer {
@@ -152,46 +225,87 @@ color: forestgreen;
   margin-right: 10px;
 
 
+
 }
 
 #rodgers {
-/*
-  border-style: solid;
-  border-color: rgb(3, 42, 3);
-*/
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
 text-align: center;
 transition: all 0.9s ease;
 }
 
 #rodgers:hover {
   transform: scale(1.6);
+  background: url('images/rodgers.gif') center no-repeat;
   border-color: gold;
   border-style: solid;
   box-shadow: 0 0 1rem #ffc600;
-  border-radius: 50%;
+  border-radius: 10%;
   padding-right: 20px;
   padding-left: 20px;
   color: #CED22F;
 }
 
+#rodgerslink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#rodgerslink:hover {
+  color: #CED22F;
+}
+
+#aaron {
+  height: 225px;
+  padding-right: 10px;
+}
+
 #monty {
+padding-right: 35px;
+padding-left: 35px;
+padding-top: 10px;
+background: url('images/cheese.png') center no-repeat;
+background-size: 135px 99px;
 margin-top: -23px;
 transition: all 0.9s ease;
 text-align: center;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 
 }
 
 #monty:hover {
   transform: scale(1.6);
+  background: url('images/monty.gif') center no-repeat;
   border-color: gold;
   border-style: solid;
   box-shadow: 0 0 1rem #ffc600;
-  border-radius: 50%;
+  border-radius: 10%;
   padding-right: 20px;
   padding-left: 20px;
   color: #CED22F;
 }
 
+#montylink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#montylink:hover {
+  color: #CED22F;
+}
+
+#ty {
+  height: 225px;
+  padding-right: 10px;
+}
 
 footer {
   display: flex;
@@ -200,8 +314,15 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   padding-top: 4px;
+  padding-bottom: 2px;
   margin-right: -8px;
   margin-left: -8px;
+  margin-bottom: -7px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 
