@@ -239,7 +239,7 @@ montgomeryForm.addEventListener('click', function(event) {
 
         montgomeryRushYardsSeason.append(montgomeryData.RushingYards);
         montgomeryRecYardsSeason.append(montgomeryData.ReceivingYards);
-        montgomeryTds.append(montgomeryData.RushingTouchdowns);
+        montgomeryTdsSeason.append(montgomeryData.RushingTouchdowns);
       })
   })
 })
