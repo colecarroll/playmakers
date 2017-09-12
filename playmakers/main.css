@@ -51,6 +51,8 @@ header {
   height: 310px;
 }
 
+a:focus {outline:0;}
+
 .Container {
   display: flex;
   flex-direction: row;

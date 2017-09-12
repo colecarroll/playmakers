@@ -32,14 +32,14 @@ adamsForm.addEventListener('click', function(event) {
   .then(function(response) {
     return response.json()
       .then(function(adamsData) {
-
+console.log(adamsData);
         adamsReceptions.innerText = (adamsData.Receptions)
         adamsRecYards.innerText = (adamsData.ReceivingYards);
         adamsTouchdowns.innerText =(adamsData.ReceivingTouchdowns)
 
-        adamsReceptionsSeason.append(adamsData.Receptions);
-        adamsYardsSeason.append(adamsData.ReceivingYards);
-        adamsTdsSeason.append(adamsData.ReceivingTouchdowns);
+        adamsReceptionsSeason.innerText =(adamsData.Receptions);
+        adamsYardsSeason.innerText =(adamsData.ReceivingYards);
+        adamsTdsSeason.innerText =(adamsData.ReceivingTouchdowns);
       })
   })
 
@@ -77,9 +77,9 @@ cobbForm.addEventListener('click', function(event) {
         cobbYards.innerText = (cobbData.ReceivingYards);
         cobbTouchdowns.innerText=(cobbData.ReceivingTouchdowns);
 
-        cobbReceptionsSeason.append(cobbData.Receptions);
-        cobbYardsSeason.append(cobbData.ReceivingYards);
-        cobbTdsSeason.append(cobbData.ReceivingTouchdowns);
+        cobbReceptionsSeason.innerText = (cobbData.Receptions);
+        cobbYardsSeason.innerText =(cobbData.ReceivingYards);
+        cobbTdsSeason.innerText =(cobbData.ReceivingTouchdowns);
 
       })
   })
@@ -117,9 +117,9 @@ bennettForm.addEventListener('click', function(event) {
         bennettYards.innerText = (bennettData.ReceivingYards);
         bennettTouchdowns.innerText= (bennettData.ReceivingTouchdowns);
 
-        bennettReceptionsSeason.append(bennettData.Receptions);
-        bennettYardsSeason.append(bennettData.ReceivingYards);
-        bennettTdsSeason.append(bennettData.ReceivingTouchdowns);
+        bennettReceptionsSeason.innerText =(bennettData.Receptions);
+        bennettYardsSeason.innerText =(bennettData.ReceivingYards);
+        bennettTdsSeason.innerText =(bennettData.ReceivingTouchdowns);
 
       })
   })
@@ -158,9 +158,9 @@ nelsonForm.addEventListener('click', function(event) {
         nelsonYards.innerText = (nelsonData.ReceivingYards);
         nelsonTouchdowns.innerText= (nelsonData.ReceivingTouchdowns);
 
-        nelsonReceptionsSeason.append(nelsonData.Receptions);
-        nelsonYardsSeason.append(nelsonData.ReceivingYards);
-        nelsonTdsSeason.append(nelsonData.ReceivingTouchdowns);
+        nelsonReceptionsSeason.innerText =(nelsonData.Receptions);
+        nelsonYardsSeason.innerText =(nelsonData.ReceivingYards);
+        nelsonTdsSeason.innerText =(nelsonData.ReceivingTouchdowns);
       })
   })
 })
@@ -197,9 +197,9 @@ rodgersForm.addEventListener('click', function(event) {
         rodgersTds.innerText = (rodgersData.PassingTouchdowns);
         rodgersInts.innerText= (rodgersData.PassingInterceptions);
 
-        rodgersYardsSeason.append(rodgersData.PassingYards);
-        rodgersTdsSeason.append(rodgersData.PassingTouchdowns);
-        rodgersIntsSeason.append(rodgersData.PassingInterceptions);
+        rodgersYardsSeason.innerText =(rodgersData.PassingYards);
+        rodgersTdsSeason.innerText =(rodgersData.PassingTouchdowns);
+        rodgersIntsSeason.innerText =(rodgersData.PassingInterceptions);
       })
   })
 })
@@ -237,9 +237,9 @@ montgomeryForm.addEventListener('click', function(event) {
         montgomeryRecYards.innerText = (montgomeryData.ReceivingYards);
         montgomeryTds.innerText= (montgomeryData.RushingTouchdowns);
 
-        montgomeryRushYardsSeason.append(montgomeryData.RushingYards);
-        montgomeryRecYardsSeason.append(montgomeryData.ReceivingYards);
-        montgomeryTdsSeason.append(montgomeryData.RushingTouchdowns);
+        montgomeryRushYardsSeason.innerText =(montgomeryData.RushingYards);
+        montgomeryRecYardsSeason.innerText =(montgomeryData.ReceivingYards);
+        montgomeryTdsSeason.innerText =(montgomeryData.RushingTouchdowns);
       })
   })
 })
