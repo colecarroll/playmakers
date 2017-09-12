@@ -18,6 +18,18 @@ body {
   display: none;
 }
 
+#hiddenNelson {
+  display: none;
+}
+
+#hiddenRodgers {
+  display: none;
+}
+
+#hiddenMontgomery {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: center;
