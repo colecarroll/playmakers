@@ -1,0 +1,878 @@
+/*MOBILE*/
+
+body {
+  font-family: 'Play', sans-serif;
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 8px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: gold;
+  margin-top: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
+
+}
+
+#mobileHeader {
+  text-align: center;
+  color: #414141;
+  padding: 0px 20px -30px 20px;
+}
+#receiversContainer {
+  display : flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: gold;
+  font-size: 1.5rem;
+  /*margin-top: -35px;*/
+
+}
+
+#qbrbContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: gold;
+  font-size: 1.5rem;
+  /*margin-top: 0px;
+  margin-right: 0px;*/
+}
+
+
+        /*BEGINNING ADAMS SECTION MOBILE*/
+#adams {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 275px 201px;
+  padding: 0px 75px 0px 75px;
+  font-size: 200%;
+  text-align: center;
+  transition: all 0.9s ease;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+
+#adamslink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#adamslink:hover {
+  color: #CED22F;
+}
+
+#davante {
+  height: 169px;
+  width: 122px;
+  padding-right: 10px;
+}
+
+/*BEGINNING OF COBB SECTION MOBILE*/
+
+#cobb {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 275px 201px;
+  padding: 0px 75px 0px 75px;
+  font-size: 200%;
+  text-align: center;
+  transition: all 0.9s ease;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+
+#cobblink {
+text-decoration: none;
+color: rgba(0,0,0,0.6);
+}
+
+#cobblink:hover {
+color: #CED22F;
+}
+
+#randall {
+height: 169px;
+width: 139px;
+padding-right: 10px;
+}
+
+/*BEGINNING OF BENNETT SECTION MOBILE*/
+
+#bennett {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 275px 201px;
+  padding: 0px 50px 0px 50px;
+  font-size: 200%;
+  text-align: center;
+  transition: all 0.9s ease;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+#bennettlink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#bennettlink:hover {
+  color: #CED22F;
+}
+
+#martellus {
+  height: 169px;
+  width: 112px;
+  padding-right: 10px;
+}
+
+/*BEGINNING OF JORDY SECTION MOBILE*/
+
+#nelson {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 275px 201px;
+  padding: 0px 75px 0px 75px;
+  font-size: 200%;
+  text-align: center;
+  transition: all 0.9s ease;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+#nelsonlink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#nelsonlink:hover {
+  color: #CED22F;
+}
+
+#jordy {
+  height: 169px;
+  width: 125px;
+  padding-right: 10px;
+}
+
+/*BEGINNING OF RODGERS SECTION MOBILE*/
+
+
+#rodgers {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 275px 201px;
+  padding: 0px 50px 0px 50px;
+  font-size: 200%;
+  text-align: center;
+  transition: all 0.9s ease;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+#rodgerslink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#rodgerslink:hover {
+  color: #CED22F;
+}
+
+#aaron {
+  height: 169px;
+  width: 169px;
+  padding-right: 10px;
+}
+
+/*BEGINNING OF MONTY SECTION MOBILE*/
+
+#monty {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 275px 201px;
+  padding: 0px 75px 0px 75px;
+  font-size: 200%;
+  text-align: center;
+  transition: all 0.9s ease;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+
+#montylink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#montylink:hover {
+  color: #CED22F;
+}
+
+#ty {
+  height: 169px;
+  width: 122px;
+  padding-right: 10px;
+}
+
+
+/*FANCY BOX STYLING MOBILE*/
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+
+.playerProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  font-size: 95%;
+  /*margin-right: 3%;*/
+}
+/*
+.miniContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}*/
+
+.StatsOutput {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  font-size: 95%;
+  /*margin-left: 3%;
+  align-content: flex-start;*/
+}
+
+.playerProfile h2, h3 {
+  color: #2E5447;
+  border-style: solid;
+  border-top: 0px
+  border-bottom: 3px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color: gold;
+}
+
+table {
+  text-align: center;
+}
+th {
+  background-color: #F6F6F6;
+  padding-right: 3px;
+  padding-left: 3px;
+  margin-right: 8px;
+  margin-left: 8px;
+  border-style: solid;
+  border-color: #CBCBCB;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-right-style: none;
+  border-left-style: none;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+  border-left-width: 0px;
+}
+
+              /*LOGO SIZE*/
+#logo {
+  width:80%;
+  height: 41%;
+}
+
+/*FOOTER ITEMS*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  margin-right: -8px;
+  margin-left: -8px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  /*position: absolute;*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+#emailCole {
+  color: #CED22F;
+  text-decoration: none;
+}
+
+#emailCole:hover {
+  transform: scale(1.8);
+  color: forestgreen;
+  text-decoration: none;
+
+}
+
+.share {
+  width: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.icon {
+  width: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.icon:hover {
+  background-color: gold;
+  transform: scale(1.7);
+  padding-top: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+            /*HIDING THE FANCY BOX*/
+#hiddenAdams {
+  display: none;
+}
+
+#hiddenCobb {
+  display: none;
+}
+
+#hiddenBennett {
+  display: none;
+}
+
+#hiddenNelson {
+  display: none;
+}
+
+#hiddenRodgers {
+  display: none;
+}
+
+#hiddenMontgomery {
+  display: none;
+}
+
+a:focus {outline:0;}
+
+#oline {
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************DESKTOP********************************************************************************/
+
+@media only screen and (min-width: 800px) {
+
+body {
+  font-family: 'Play', sans-serif;
+  background:
+  url('images/background.png') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#mobileHeader {
+  display: none;
+}
+
+#hiddenAdams {
+  display: none;
+}
+
+#hiddenCobb {
+  display: none;
+}
+
+#hiddenBennett {
+  display: none;
+}
+
+#hiddenNelson {
+  display: none;
+}
+
+#hiddenRodgers {
+  display: none;
+}
+
+#hiddenMontgomery {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 8px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: gold;
+  margin-top: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
+
+}
+
+#logo {
+  width:600px;
+  height: 310px;
+}
+
+a:focus {outline:0;}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.playerProfile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 45%;
+  font-size: 95%;
+  margin-right: 3%;
+}
+
+.miniContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.StatsOutput {
+  display: flex;
+  flex-direction: column;
+
+  width: 45%;
+  font-size: 95%;
+  margin-left: 3%;
+  align-content: flex-start;
+}
+
+.playerProfile h2, h3 {
+  color: #2E5447;
+  border-style: solid;
+  border-top: 0px
+  border-bottom: 3px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color: gold;
+}
+
+table {
+  text-align: center;
+}
+th {
+  background-color: #F6F6F6;
+  padding-right: 3px;
+  padding-left: 3px;
+  margin-right: 8px;
+  margin-left: 8px;
+  border-style: solid;
+  border-color: #CBCBCB;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-right-style: none;
+  border-left-style: none;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+  border-left-width: 0px;
+}
+
+td {
+  border-color: #F6F6F6;
+  border-top-style: solid;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-top-width: 1px;
+  border-left-width: 0px;
+
+}
+
+#receiversContainer {
+  display : flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  color: gold;
+  font-size: 1.5rem;
+  margin-top: -35px;
+
+}
+
+#adams, #cobb, #bennett, #nelson, #rodgers, #monty {
+  font-size: 100%;
+}
+
+#adams {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
+  padding: 5px 40px;
+  text-align: center;
+  transition: all 0.9s ease;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+#adams:hover {
+  transform: scale(1.6);
+  background: url('images/adams2.gif') center no-repeat;
+  border-color: gold;
+  border-style: solid;
+  box-shadow: 0 0 1rem #ffc600;
+  border-radius: 10%;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #CED22F;
+}
+
+#adamslink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#adamslink:hover {
+  color: #CED22F;
+}
+
+#davante {
+  height: 169px;
+  width: 122px;
+  padding-right: 10px;
+}
+
+#cobb {
+  padding: 0px 35px 0px 35px;
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
+  transition: all 0.9s ease;
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#cobb:hover {
+  transform: scale(1.6);
+  background: url('images/cobb.gif') center no-repeat;
+  border-color: gold;
+  border-style: solid;
+  box-shadow: 0 0 1rem #ffc600;
+  border-radius: 10%;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #CED22F;
+}
+
+#cobblink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#cobblink:hover {
+  color: #CED22F;
+}
+
+#randall {
+  height: 169px;
+  width: 139px;
+  padding-right: 10px;
+}
+
+#oline {
+color: forestgreen;
+display: inline;
+}
+
+#bennett {
+  padding: 0px 35px 0px 35px;
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
+  transition: all 0.9s ease;
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#bennett:hover {
+  transform: scale(1.6);
+  background: url('images/bennett.gif') center no-repeat;
+  border-color: gold;
+  border-style: solid;
+  box-shadow: 0 0 1rem #ffc600;
+  border-radius: 10%;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #CED22F;
+}
+
+#bennettlink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#bennettlink:hover {
+  color: #CED22F;
+}
+
+#martellus {
+  height: 169px;
+  width: 112px;
+  padding-right: 10px;
+}
+
+#nelson {
+  padding: 0px 35px 0px 35px;
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
+  transition: all 0.9s ease;
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#nelson:hover {
+  transform: scale(1.6);
+  background: url('images/jordy.gif') center no-repeat;
+  border-color: gold;
+  border-style: solid;
+  box-shadow: 0 0 1rem #ffc600;
+  border-radius: 10%;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #CED22F;
+}
+
+#nelsonlink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#nelsonlink:hover {
+  color: #CED22F;
+}
+
+#jordy {
+  height: 169px;
+  width: 125px;
+  padding-right: 10px;
+}
+
+#qbrbContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: gold;
+  font-size: 1.5rem;
+  margin-top: -100px;
+  margin-right: 10px;
+
+}
+
+#rodgers {
+  background: url('images/cheese.png') center no-repeat;
+  background-size: 135px 99px;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+text-align: center;
+transition: all 0.9s ease;
+padding: 0px 0px;
+}
+
+#rodgers:hover {
+  transform: scale(1.6);
+  background: url('images/rodgers.gif') center no-repeat;
+  border-color: gold;
+  border-style: solid;
+  box-shadow: 0 0 1rem #ffc600;
+  border-radius: 10%;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #CED22F;
+}
+
+#rodgerslink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#rodgerslink:hover {
+  color: #CED22F;
+}
+
+#aaron {
+  height: 169px;
+  width: 169px;
+  padding-right: 10px;
+}
+
+#monty {
+padding: 10px 35px 0px 35px;
+/*padding-right: 35px;
+padding-left: 35px;
+padding-top: 10px;*/
+background: url('images/cheese.png') center no-repeat;
+background-size: 135px 99px;
+margin-top: -23px;
+transition: all 0.9s ease;
+text-align: center;
+color: rgba(0,0,0,0.6);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+#monty:hover {
+  transform: scale(1.6);
+  background: url('images/monty.gif') center no-repeat;
+  border-color: gold;
+  border-style: solid;
+  box-shadow: 0 0 1rem #ffc600;
+  border-radius: 10%;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #CED22F;
+}
+
+#montylink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.6);
+}
+
+#montylink:hover {
+  color: #CED22F;
+}
+
+#ty {
+  height: 169px;
+  width: 122px;
+  padding-right: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  margin-right: -8px;
+  margin-left: -8px;
+  margin-bottom: -7px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+#emailCole {
+  color: #CED22F;
+  text-decoration: none;
+}
+
+#emailCole:hover {
+  transform: scale(1.8);
+  color: forestgreen;
+  text-decoration: none;
+
+}
+
+.share {
+  width: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.icon {
+  width: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.icon:hover {
+  background-color: gold;
+  transform: scale(1.7);
+  padding-top: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+}

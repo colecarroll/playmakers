@@ -32,7 +32,7 @@ adamsForm.addEventListener('click', function(event) {
   .then(function(response) {
     return response.json()
       .then(function(adamsData) {
-console.log(adamsData);
+// console.log(adamsData);
         adamsReceptions.innerText = (adamsData.Receptions)
         adamsRecYards.innerText = (adamsData.ReceivingYards);
         adamsTouchdowns.innerText =(adamsData.ReceivingTouchdowns)
