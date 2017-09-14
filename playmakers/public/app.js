@@ -6,7 +6,7 @@ $("[data-fancybox]").fancybox({
 loop     : true
 	});
 
-// ****** Davante Adams Ajax pull *******
+// ****** Davante Adams API get *******
 var adamsForm =document.getElementById('AdamsStats')
 
 var adamsReceptions = document.getElementById('adamsReceptions');
@@ -47,7 +47,7 @@ adamsForm.addEventListener('click', function(event) {
 
 // ****** end of ADAMS Data ******
 
-// **** start of COBB Data *****
+// **** start of COBB API Get *****
 
 var cobbForm =document.getElementById('cobbStats')
 
@@ -88,7 +88,7 @@ cobbForm.addEventListener('click', function(event) {
 // ****** End of COBB data *******
 
 
-// ***** Beginning of BENNETT Data ******
+// ***** Beginning of BENNETT API Get ******
 var bennettForm =document.getElementById('bennettStats')
 
 var bennettReceptions = document.getElementById('bennettReceptions');
@@ -127,7 +127,7 @@ bennettForm.addEventListener('click', function(event) {
 
 /// ****** END BENNETT DATA ******
 
-// ***** BEGINNING OF JORDY data *****
+// ***** BEGINNING OF Nelson API Get*****
 
 var nelsonForm =document.getElementById('nelsonStats')
 
@@ -167,7 +167,7 @@ nelsonForm.addEventListener('click', function(event) {
 
 // ***** END OF JORDY DATA *****
 
-// ***** BEGINNING OF RODGERS DATA *******
+// ***** BEGINNING OF RODGERS API Get *******
 var rodgersForm =document.getElementById('rodgersStats')
 
 var rodgersYards = document.getElementById('rodgersYards');
@@ -206,7 +206,7 @@ rodgersForm.addEventListener('click', function(event) {
 
 //  *****END OF RODGERS DATA*****
 
-// ****** START OF MONTY DATA ******
+// ****** START OF Ty Montgomery API Get ******
 
 var montgomeryForm =document.getElementById('MontgomeryStats')
 

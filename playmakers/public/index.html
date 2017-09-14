@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>2017 Green Bay Packers Playmakers</title>
+    <!--disabling zoom on mobile-->
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
 
+    <!--link to fancy box Jquery framework styling-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+
+    <!--Next two are google font style links-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Anton|Play:700" rel="stylesheet">
 
+    <!--link to my css-->
     <link href='main.css' rel='stylesheet'>
 
 
@@ -18,6 +23,7 @@
   <body>
     <header>
       <img id='logo' src='images/Site_Logo2.png' alt="2017 Green Bay Packers Playmakers">
+      <!--only for mobile, hidden on desktop version-->
       <h1 id='mobileHeader'>Click on a player, see their up to the minute stats as the season goes on</h1>
     </header>
 
@@ -25,19 +31,19 @@
 
       <section id='receiversContainer'> <!--first x-axis of players for WRs TE and Oline which will justify as a row-->
 
+        <!--this div contains all data that pops up in fancybox display when Davante Adams is clicked on-->
         <div id='hiddenAdams' data-fancybox>
           <section class='Container'>
             <section class="playerProfile">
               <section class="miniContainer">
                 <img id='davante' src='images/davante.jpeg' alt='Davante Adams'>
-
                 <iframe width="300" height="169" src="https://www.youtube.com/embed/YBzE4uGF8lA" frameborder="0" allowfullscreen></iframe>
               </section>
               <h2>Davante Adams #17 Wide Receiver</h2>
               <h3>San Diego State Aztecs</h3>
               <p>2016 Stat Line: 75 Receptions -- 997 Yards -- 12 TD's.</p>
 	            <p>Davante Adams enjoyed a breakout year in 2016, where he amassed 997 yards and 13 touchdowns. With elite athleticism and short area speed, he's primed for a massive 2017 campaign.</p>
-             </section>
+            </section>
             <section class='StatsOutput'>
               <h3>Season Totals</h3>
               <table>
@@ -157,12 +163,11 @@
                   <td>0</td>
                 </tr>
               </table>
-
             </section>
           </section>
         </div>
 
-
+        <!--html that shows up on home page for Davante Adams-->
         <section title='Davante Adams' id='adams'>
           <form id='AdamsStats'
             <a href="#hiddenAdams"
@@ -173,15 +178,14 @@
         </section>
 
 
+        <!--this div contains all data that pops up in fancybox display when Randall Cobb is clicked on-->
         <div id='hiddenCobb' data-fancybox>
           <section class='Container'>
             <section class="playerProfile">
               <section class="miniContainer">
                 <img id='randall' src='images/randall.png' alt='Randall Cobb'>
-
                 <iframe width="300" height="169" src="https://www.youtube.com/embed/PbZFqsDtgGE" frameborder="0" allowfullscreen></iframe>
               </section>
-
               <h2>Randall Cobb #18 Wide Receiver</h2>
               <h3>Kentucky Wildcats</h3>
               <p>2016 Stat Line: 60 Receptions -- 610 Yards -- 4 TD's.</p>
@@ -310,25 +314,27 @@
           </section>
         </div>
 
+        <!--html that shows up on home page for Randall Cobb-->
         <section title='Randall Cobb' id='cobb'>
           <form id="cobbStats">
-            <a href="#hiddenCobb"
-            id="cobblink" data-fancybox data-caption="">
+            <a href="#hiddenCobb" id="cobblink" data-fancybox data-caption="">
               <p>#18<br>Cobb<br>WR</p>
             </a>
           </form>
         </section>
 
+        <!--html that shows up on home page for non-clickable numbers that represent the players on the offensive line-->
         <section id='oline'>
           <p>69 65 63 73 75</p>
         </section>
 
+
+        <!--this div contains all data that pops up in fancybox display when Martellus Bennett is clicked on-->
         <div id="hiddenBennett" data-fancybox>
           <section class='Container'>
             <section class="playerProfile">
               <section class="miniContainer">
                 <img id='martellus' src='images/martellus.jpeg' alt='Martellus Bennett'>
-
                 <iframe width="300" height="169" src="https://www.youtube.com/embed/DWnw09QVbSc" frameborder="0" allowfullscreen></iframe>
               </section>
               <h2>Martellus Bennett #80 Tight End</h2>
@@ -336,8 +342,7 @@
               <p>2016 Stat Line: 55 Receptions -- 701 Yards -- 7 TD's.</p>
               <p>Martellus Bennett is not only one of the most talented and consistenly productive tight ends in football, he is also one of the wackiest characters in the lockeroom. His ability to dominate the deep middle of the field will open up defenses for his teammates.</p>
             </section>
-
-          <section class='StatsOutput'>
+            <section class='StatsOutput'>
             <h3>Season Totals</h3>
               <table>
                 <tr>
@@ -455,26 +460,26 @@
                   <td>0</td>
                 </tr>
               </table>
-
             </section>
           </section>
         </div>
 
-      <section title='Martellus Bennett' id='bennett'>
-        <form id="bennettStats">
-          <a href="#hiddenBennett"
-            id="bennettlink" data-fancybox data-caption="">
-            <p>#80<br>Bennett<br>TE</p>
-          </a>
-        </form>
-      </section>
+      <!--html that shows up on home page for Martellus Bennett-->
+        <section title='Martellus Bennett' id='bennett'>
+          <form id="bennettStats">
+            <a href="#hiddenBennett"
+              id="bennettlink" data-fancybox data-caption="">
+              <p>#80<br>Bennett<br>TE</p>
+            </a>
+          </form>
+        </section>
 
+      <!--this div contains all data that pops up in fancybox display when Jordy Nelson is clicked on-->
         <div id='hiddenNelson' data-fancybox>
           <section class='Container'>
             <section class="playerProfile">
               <section class="miniContainer">
                 <img id='jordy' src='images/jordy.jpeg' alt='Jordy Nelson'>
-
                 <iframe width="300" height="169" src="https://www.youtube.com/embed/V--4o2G9EBc" frameborder="0" allowfullscreen></iframe>
               </section>
 
@@ -483,7 +488,6 @@
               <p>2016 Stat Line: 97 Receptions -- 1257 Yards -- 14 TD's.</p>
               <p>No one was sure if Jordy Nelson would regain his previous form as an All-Pro receiver when a torn ACL ended his 2015 season. Jordy proved all the doubters wrong with a an amazing 2016 season. He was awarded the '2016 Comeback Player of the Year Award.'</p>
             </section>
-
             <section class='StatsOutput'>
               <h3>Season Totals</h3>
               <table>
@@ -606,6 +610,7 @@
           </section>
         </div>
 
+        <!--html that shows up on home page for Jordy Nelson-->
         <section title='Jordy Nelson' id='nelson'>
           <form id="nelsonStats">
             <a href="#hiddenNelson"
@@ -617,14 +622,14 @@
 
       </section> <!--end of receivers container-->
 
-      <section id='qbrbContainer'> <!--second x-axis of players QB and RB, which will justify as a column-->
+      <section id='qbrbContainer'> <!--second axis of players QB and RB, which will justify as a column-->
 
+        <!--this div contains all data that pops up in fancybox display when Aaron Rodgers is clicked on-->
         <div id='hiddenRodgers' data-fancybox>
           <section class='Container'>
             <section class="playerProfile">
               <section class="miniContainer">
                 <img id='aaron' src='images/aaron.jpeg' alt='Aaron Rodgers'>
-
                 <iframe width="300" height="169" src="https://www.youtube.com/embed/1_V2D5xN4Tc" frameborder="0" allowfullscreen></iframe>
               </section>
               <h2>Aaron Rodgers #12 Quarterback</h2>
@@ -754,6 +759,7 @@
           </section>
         </div>
 
+        <!--html that shows up on home page for Aaron Rodgers-->
         <section title='Aaron Rodgers' id='rodgers'>
           <form id="rodgersStats">
             <a href="#hiddenRodgers"
@@ -763,13 +769,12 @@
           </form>
         </section>
 
-
+        <!--this div contains all data that pops up in fancybox display when Ty Montgomery is clicked on-->
         <div id='hiddenMontgomery' data-fancybox>
           <section class='Container'>
             <section class="playerProfile">
               <section class="miniContainer">
                 <img id='ty' src='images/ty.jpeg' alt='Ty Montgomery'>
-
                 <iframe width="300" height="169" src="https://www.youtube.com/embed/B5hVRADAf-U" frameborder="0" allowfullscreen></iframe>
               </section>
               <h2>Ty Montgomery #88 Running Back</h2>
@@ -777,8 +782,7 @@
               <p>2016 Stat Line: 457 Yards Rushing -- 348 Yards Receiving -- 3 TDs.</p>
               <p>Early in the 2016 season, when the Packers lost star running back Eddie Lacy to injury, they turned to a wide receiver to fill the void. Ty Montgomery caught on quick to being a premier rusher and is a dual threat out of the backfield with a ton of potential.</p>
             </section>
-
-          <section class='StatsOutput'>
+            <section class='StatsOutput'>
             <h3>Season Totals</h3>
             <table>
               <tr>
@@ -900,6 +904,7 @@
         </section>
       </div>
 
+        <!--html that shows up on home page for Ty Mongomery-->
         <section title='Ty Montgomery' id='monty'>
           <form id="MontgomeryStats">
             <a href="#hiddenMontgomery"
@@ -909,28 +914,26 @@
           </form>
         </section>
 
-      </section>
+      </section> <!--end of QBRB container-->
 
     </main>
 
     <footer>
 
-
-
+      <!--link in footer to email me-->
       <small>Created By <a href="mailto:colecarroll2@gmail.com" id='emailCole'>Cole Carroll</a>     &#169 2017</small>
 
-      <!-- <img class='share' src='images/connect.png' alt='connect with Cole'> -->
-
+      <!--link in foot to my github page-->
       <a href='https://github.com/colecarroll' target='_blank'>
         <img class='icon' src="images/github_icon.png" alt='Cole Carroll Github Hyperlink'>
       </a>
 
+      <!--link in footer to my linkedin page-->
       <a href='https://www.linkedin.com/in/colegcarroll/' target='_blank'>
         <img class='icon' src="images/linkedin_icon.png" alt='Cole Carroll LinkedIn Hyperlink'>
       </a>
-<!--
-      <img class='share' src='images/share.png' alt='share'> -->
 
+      <!--link in footer to share this website on user's facebook-->
       <a id='facebook' href="https://www.facebook.com/sharer/sharer.php?u=https%3A//packerplaymakers.firebaseapp.com/" target='_blank'>
         <img class='icon'
         src="images/fb.png" alt='Share on Facebook'>
@@ -942,15 +945,15 @@
     <!--SCRIPT TAGS-->
 
     <!--JQuery-->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <!--API JQuery
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
--->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    -->
 
     <!--Fancybox-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
 
     <!--my JS file-->
     <script type='text/javascript' src='app.js'></script>

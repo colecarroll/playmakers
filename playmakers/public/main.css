@@ -1,4 +1,4 @@
-/*MOBILE*/
+/*MOBILE STYLING*/
 
 body {
   font-family: 'Play', sans-serif;
@@ -20,7 +20,6 @@ header {
   margin-top: -8px;
   margin-right: -8px;
   margin-left: -8px;
-
 }
 
 #mobileHeader {
@@ -28,6 +27,7 @@ header {
   color: #414141;
   padding: 0px 20px -30px 20px;
 }
+
 #receiversContainer {
   display : flex;
   flex-direction: column;
@@ -36,8 +36,6 @@ header {
   align-items: center;
   color: gold;
   font-size: 1.5rem;
-  /*margin-top: -35px;*/
-
 }
 
 #qbrbContainer {
@@ -48,10 +46,7 @@ header {
   align-items: center;
   color: gold;
   font-size: 1.5rem;
-  /*margin-top: 0px;
-  margin-right: 0px;*/
 }
-
 
         /*BEGINNING ADAMS SECTION MOBILE*/
 #adams {
@@ -65,9 +60,7 @@ color: rgba(0,0,0,0.6);
 text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
-
 }
-
 
 #adamslink {
   text-decoration: none;
@@ -85,7 +78,6 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 }
 
 /*BEGINNING OF COBB SECTION MOBILE*/
-
 #cobb {
   background: url('images/cheese.png') center no-repeat;
   background-size: 275px 201px;
@@ -117,7 +109,6 @@ padding-right: 10px;
 }
 
 /*BEGINNING OF BENNETT SECTION MOBILE*/
-
 #bennett {
   background: url('images/cheese.png') center no-repeat;
   background-size: 275px 201px;
@@ -130,7 +121,6 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
-
 
 #bennettlink {
   text-decoration: none;
@@ -148,7 +138,6 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 }
 
 /*BEGINNING OF JORDY SECTION MOBILE*/
-
 #nelson {
   background: url('images/cheese.png') center no-repeat;
   background-size: 275px 201px;
@@ -161,7 +150,6 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
-
 
 #nelsonlink {
   text-decoration: none;
@@ -179,8 +167,6 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 }
 
 /*BEGINNING OF RODGERS SECTION MOBILE*/
-
-
 #rodgers {
   background: url('images/cheese.png') center no-repeat;
   background-size: 275px 201px;
@@ -211,7 +197,6 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 }
 
 /*BEGINNING OF MONTY SECTION MOBILE*/
-
 #monty {
   background: url('images/cheese.png') center no-repeat;
   background-size: 275px 201px;
@@ -223,9 +208,7 @@ color: rgba(0,0,0,0.6);
 text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
-
 }
-
 
 #montylink {
   text-decoration: none;
@@ -242,15 +225,12 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   padding-right: 10px;
 }
 
-
-/*FANCY BOX STYLING MOBILE*/
-
+/*FANCY BOX STYLING MOBILE, these style the format of the content that pops up when a player is clicked on*/
 .Container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-
 }
 
 .playerProfile {
@@ -260,24 +240,13 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   flex-wrap: nowrap;
   width: 100%;
   font-size: 95%;
-  /*margin-right: 3%;*/
 }
-/*
-.miniContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: nowrap;
-}*/
 
 .StatsOutput {
   display: flex;
   flex-direction: column;
-
   width: 100%;
   font-size: 95%;
-  /*margin-left: 3%;
-  align-content: flex-start;*/
 }
 
 .playerProfile h2, h3 {
@@ -293,6 +262,7 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 table {
   text-align: center;
 }
+
 th {
   background-color: #F6F6F6;
   padding-right: 3px;
@@ -318,7 +288,6 @@ th {
 }
 
 /*FOOTER ITEMS*/
-
 footer {
   display: flex;
   justify-content: center;
@@ -331,12 +300,10 @@ footer {
   margin-left: -8px;
   margin-bottom: 5px;
   font-family: 'Montserrat', sans-serif;
-  /*position: absolute;*/
   right: 0;
   bottom: 0;
   left: 0;
 }
-
 
 #emailCole {
   color: #CED22F;
@@ -347,7 +314,6 @@ footer {
   transform: scale(1.8);
   color: forestgreen;
   text-decoration: none;
-
 }
 
 .share {
@@ -370,6 +336,7 @@ footer {
   padding-right: 3px;
 }
             /*HIDING THE FANCY BOX*/
+            /*Each player must have their own id because fancy box isn't linking to a separate page, just seperate divs within the main home page, the content selected fills the fancybox window when a play is clicked on */
 #hiddenAdams {
   display: none;
 }
@@ -406,13 +373,7 @@ display: none;
 
 
 
-
-
-
-
-
-
-/********************************************DESKTOP********************************************************************************/
+/*********************DESKTOP*STYLES********************************************************************************/
 
 @media only screen and (min-width: 800px) {
 
@@ -423,6 +384,7 @@ body {
   background-size: cover;
   height: 100vh;
 }
+
 #mobileHeader {
   display: none;
 }
@@ -464,7 +426,6 @@ header {
   margin-top: -8px;
   margin-right: -8px;
   margin-left: -8px;
-
 }
 
 #logo {
@@ -478,7 +439,6 @@ a:focus {outline:0;}
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
 
 .playerProfile {
@@ -519,6 +479,7 @@ a:focus {outline:0;}
 table {
   text-align: center;
 }
+
 th {
   background-color: #F6F6F6;
   padding-right: 3px;
@@ -547,7 +508,6 @@ td {
   border-bottom-width: 0px;
   border-top-width: 1px;
   border-left-width: 0px;
-
 }
 
 #receiversContainer {
@@ -559,7 +519,6 @@ td {
   color: gold;
   font-size: 1.5rem;
   margin-top: -35px;
-
 }
 
 #adams, #cobb, #bennett, #nelson, #rodgers, #monty {
@@ -576,7 +535,6 @@ color: rgba(0,0,0,0.6);
 text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
-
 }
 
 #adams:hover {
@@ -782,9 +740,6 @@ padding: 0px 0px;
 
 #monty {
 padding: 10px 35px 0px 35px;
-/*padding-right: 35px;
-padding-left: 35px;
-padding-top: 10px;*/
 background: url('images/cheese.png') center no-repeat;
 background-size: 135px 99px;
 margin-top: -23px;
@@ -876,3 +831,4 @@ footer {
 }
 
 }
+/*closes media querie */
